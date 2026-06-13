@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-t --version
+
 <html lang="pt-BR">
 
 <head>
@@ -44,7 +44,7 @@ t --version
       background-image:
         linear-gradient(rgba(0, 0, 0, .65),
           rgba(0, 0, 0, .8)),
-        url("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=2070&auto=format&fit=crop");
+        url("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=2070");
       background-size: cover;
       background-position: center;
       transform: scale(1.2);
@@ -349,16 +349,15 @@ t --version
     <div class="hero-content">
 
       <h1 class="hero-title">
-        Uma História Que Está Começando
+        Feliz dia dos namorados❤️
       </h1>
-
       <p class="hero-text">
-        Algumas conexões surgem sem aviso.
-        Uma conversa vira rotina, uma mensagem gera expectativa
-        e pouco a pouco duas pessoas começam a descobrir
-        versões uma da outra que ninguém mais conhece.
+        Hoje é um dia especial para celebrar os sentimentos,
+        os momentos compartilhados e todas as possibilidades
+        que ainda estão por vir.
+        E embora que não sejamos namorados ainda eu fiz este site dedicado a cada momento que ainda vamos viver juntos
+        ❤️
       </p>
-
       <div class="hero-btns">
         <a href="#sobre" class="btn">
           Nossa Conexão
@@ -404,6 +403,41 @@ t --version
         <p>
           O mais interessante é que ainda existem milhares
           de conversas, risadas e momentos para acontecer.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+  <section>
+
+    <h2 class="section-title reveal">
+      ❤️ Neste Dia dos Namorados ❤️
+    </h2>
+
+    <div class="cards">
+
+      <div class="card reveal">
+        <h3>🌹 Gratidão</h3>
+        <p>
+          Obrigado por todos os momentos,
+          conversas e risadas compartilhadas.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <h3>💖 Carinho</h3>
+        <p>
+          Algumas pessoas tornam os dias mais leves
+          apenas por existirem.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <h3>✨ Futuro</h3>
+        <p>
+          Que possamos continuar construindo
+          novas memórias juntos.
         </p>
       </div>
 
@@ -549,10 +583,11 @@ t --version
 
     <div class="heart-container"></div>
 
-    <div class="final-message">
-      <h2>Talvez essa história esteja apenas começando ❤️</h2>
-    </div>
-
+<h2>
+  ❤️ Feliz Dia dos Namorados ❤️
+  <br>
+  Obrigado por fazer parte da minha vida.
+</h2>
   </section>
 
   <script>
@@ -635,9 +670,13 @@ t --version
 
     gsap.from(".hero-title", {
       y: 100,
+      textShadow:
+        "0 0 20px #ff4f8b",
+      repeat: -2,
+      yoyo: true,
       opacity: 0,
       filter: "blur(30px)",
-      duration: 1.5,
+      duration: 2,
       delay: 1
     });
 
